@@ -70,12 +70,24 @@ html, body {
   
 }
 
+span{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.item{
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
 .fonts{
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
    flex-direction: column;
-   height: 500px;
+   height: 200px;
 }
 
 .title{
